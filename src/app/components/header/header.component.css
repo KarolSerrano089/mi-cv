@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+
+.cabecera {
+  background-color: #70c7ff;
+  padding: 35px;
+}
+
+.datos-cabecera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.foto-perfil {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #d5eeff;
+}
+
+.cabecera h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 44px;
+  color: #1ba3fb;
+}
+
+.cabecera h2 {
+  margin: 8px 0 0;
+  font-size: 15px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .datos-cabecera {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+<main class="principal">
+  <h2>Sobre mí</h2>
+  <p>{{ sobreMi }}</p>
+
+  <section>
+    <h2>Experiencia</h2>
+    @for (exp of experiencias; track $index) {
+      <article class="experiencia">
+        <h3>{{ exp.puesto }}</h3>
+        <p>{{ exp.empresa }}</p>
+        <p>{{ exp.fecha }}</p>
+        <p>{{ exp.descripcion }}</p>
+      </article>
+    }
+  </section>
+
+  <section>
+    <h2>Formación</h2>
+    @for (f of formacion; track $index) {
+      <article class="experiencia">
+        <h3>{{ f.titulo }}</h3>
+        <p>{{ f.centro }}</p>
+        <p>{{ f.fecha }}</p>
+      </article>
+    }
+  </section>
+</main>

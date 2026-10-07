@@ -1,0 +1,21 @@
+<aside class="lateral">
+  <h2>Contacto</h2>
+  <p>{{ ciudad }}</p>
+  <p>{{ numero }}</p>
+  <p>{{ email }}</p>
+  <p>{{ github }}</p>
+
+  <p><strong>Idiomas:</strong></p>
+  <ul class="idioma">
+    @for (idioma of idiomas; track idioma) {
+      <li>{{ idioma }}</li>
+    }
+  </ul>
+
+  <p><strong>Lenguajes:</strong></p>
+  <ul class="lista-tecnologias">
+    @for (tec of habilidades; track tec) {
+      <li>{{ tec }}</li>
+    }
+  </ul>
+</aside>

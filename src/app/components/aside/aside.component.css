@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  flex: 0 0 28%;
+  background-color: #d5eeff;
+  border-right: 1px dotted #48b7ff;
+}
+
+.lateral {
+  color: #3a5f7d;
+  padding: 30px 22px;
+}
+
+.lateral h2 {
+  font-size: 16px;
+  color: #1ba3fb;
+  border-bottom: 2px solid #48b7ff;
+  padding-bottom: 6px;
+  margin-top: 24px;
+}
+
+.lateral h2::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  background: #70c7ff;
+}
+
+.lateral p {
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 6px 0;
+  word-break: break-word;
+}
+
+.lateral a {
+  color: #1ba3fb;
+}
+
+.lista-tecnologias {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 8px 0;
+  display: block;
+  column-count: 2;
+  column-gap: 12px;
+}
+
+.lista-tecnologias li {
+  padding: 2px 0;
+  font-size: 13px;
+  color: #3a5f7d;
+  break-inside: avoid;
+}
