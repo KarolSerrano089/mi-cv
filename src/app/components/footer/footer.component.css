@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.pie {
+  text-align: center;
+  background-color: #d5eeff;
+  color: #1ba3fb;
+  padding: 18px;
+  font-size: 14px;
+}
+
+.pie p {
+  margin: 0;
+}
